@@ -1,18 +1,10 @@
 ---
-title: "Leads are not showing in my dashboard"
-description: "Diagnose why leads captured by your Lark agent are not appearing in the Leads section."
+title: "Leads are not showing up"
+description: "Where to look when you expect a lead and cannot find it."
 ---
 
-If your agent is running but captured leads are not appearing in the Leads section of your dashboard, work through the steps below.
-
-## 1. Check the lead capture rule is active
-
-In your Lark dashboard, go to Rules and confirm you have a lead capture rule toggled on.
-
-## 2. Confirm the agent is live on your site
-
-Leads are only captured from real visitor conversations, not from preview mode. Make sure the embed script is live on your site.
-
-## 3. Check your integration
-
-If you are expecting leads in a connected CRM rather than Lark's Leads list, verify the integration is still connected under Organisation settings → Integrations.
+- **Dashboard filter:** leads appear on your Dashboard. Clear the search box and set the status filter to all.
+- **Quarantined:** throwaway email addresses and repeat submissions are saved as Quarantined. They are visible but never synced or emailed.
+- **Not a lead yet:** the agent only takes contact details when a visitor shares them in the chat.
+- **Not reaching your tool:** open the lead to see its sync status for each connected tool. Retry a failed one. Mailing lists only receive visitors who agreed to emails.
+- **Agent not live:** check the agent is [appearing on your site](/troubleshooting/agent-not-appearing).

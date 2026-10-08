@@ -1,15 +1,33 @@
 ---
 title: "Integrations overview"
-description: "How Lark connects to your existing tools and what each integration does."
+description: "Connect Lark to the tools you already use so leads flow in automatically."
 ---
 
-## Connect Lark to your stack
+Open **Integrations** under Connections & tools in your dashboard. Each tool has a card where you connect it, adjust its settings and check its status.
 
-Lark integrations let you push leads and conversation data from your agent directly into the tools your team already uses. No manual copying, no missed contacts.
+## Available tools
 
-## Available integrations
+| Tool | What it does | Plan |
+| --- | --- | --- |
+| [Brevo](/integrations/brevo) | Adds contacts who agreed to hear from you to a list | Starter and above |
+| [Mailchimp](/integrations/mailchimp) | Adds contacts who agreed to hear from you to an audience | Starter and above |
+| [Zendesk](/integrations/zendesk) | Creates support tickets from conversations | Pro and above |
+| [Salesforce](/integrations/salesforce) | Creates or updates Leads | Pro and above |
+| HubSpot | Creates or updates contacts | Pro and above |
+| Cal.com | Connect and validate only for now | Starter and above |
 
-- **Brevo** — Automatically add contacts captured by your agent to a Brevo list.
-- **Mailchimp** — Push new leads straight into a Mailchimp audience.
-- **Zendesk** — Create Zendesk tickets from Lark conversations.
-- **Salesforce** — Create Lead or Contact records in Salesforce when a lead is captured.
+## Connecting a tool
+
+Click **Connect** on the tool's card. Most tools open a sign-in window where you approve access. Brevo asks for an API key on a secure page. If you are setting Lark up for a client, choose **Send this link to my client** so they can approve access themselves.
+
+A connection is always in one of four states: Not connected, Waiting for approval, Connected or Needs attention. If a tool shows Needs attention, use **Reconnect**.
+
+After connecting, use **Validate connection** to check it works, then adjust the tool's settings and click **Save settings**. Use **Send a test contact** to confirm a contact arrives. **Disconnect** removes the connection.
+
+## Consent
+
+Mailing list tools (Brevo and Mailchimp) only receive visitors who said yes when the agent asked if they would like to receive emails. Other leads stay in your dashboard.
+
+## How syncing works
+
+Leads sync in the background. Each lead in your dashboard shows whether it was sent, is still sending or failed, and you can retry a failed one.

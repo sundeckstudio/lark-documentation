@@ -1,19 +1,20 @@
 ---
-title: "Connecting Salesforce"
-description: "Push leads from Lark into Salesforce as contacts or leads automatically."
+title: "Salesforce"
+description: "Create or update Salesforce Leads from conversations."
 ---
 
-## What this integration does
+Available on Pro and above.
 
-The Salesforce integration sends leads captured by your Lark agent directly into Salesforce as a Lead or Contact record.
+## Connect
 
-## What you can do
+1. Open **Integrations** and click **Connect** on Salesforce.
+2. Choose **Production** or **Sandbox** for the login.
+3. Sign in to Salesforce in the window that opens and approve access.
+4. Back in Lark, click **Validate connection**.
 
-- Automatically create a Salesforce Lead or Contact when someone submits their details
-- Map Lark lead fields to Salesforce fields
-- Assign new records to a specific owner or queue
-- Include the conversation summary in the Lead description
+## Settings
 
-## Setup
+- **Create or update Lead:** turn on to create a Lead for each new contact, or update the existing one.
+- **Lead source:** the source value set on each Lead. The default is `Lark`.
 
-In your Lark dashboard, go to Organisation settings → Integrations. Click Connect next to Salesforce and authorise via OAuth. Configure your field mappings and save.
+Use **Send a test contact** to check it works, then **Save settings**.
