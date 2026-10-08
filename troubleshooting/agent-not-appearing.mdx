@@ -1,0 +1,23 @@
+---
+title: "My agent is not appearing on my website"
+description: "Steps to diagnose and fix a Lark agent that is not showing on your site after embedding."
+icon: "triangle-exclamation"
+---
+
+If you have added the Lark embed script to your site but the agent is not visible, work through the checks below in order.
+
+## 1. Check your subscription
+
+Embedding requires an active paid plan. The agent will not appear during the free trial period.
+
+## 2. Verify the embed script is present
+
+In your Lark dashboard, go to Embed and copy the script snippet. Confirm it appears in your website's source code just before the closing `</body>` tag.
+
+## 3. Check for JavaScript errors
+
+Open your browser's developer tools (F12) and check the Console tab for errors. A Content Security Policy blocking `cdn.trylark.io` will prevent the agent from loading.
+
+## 4. Try a different browser
+
+Some browser extensions block chat widgets. Test in a private window to rule this out.
