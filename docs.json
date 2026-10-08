@@ -23,7 +23,6 @@
         "pages": [
           "getting-started/what-is-lark",
           "getting-started/setting-up",
-          "getting-started/estimate-module",
           "getting-started/lead-capture",
           "getting-started/embedding",
           "getting-started/rules-module",
@@ -80,6 +79,13 @@
           "legal/privacy-policy",
           "legal/terms-of-service",
           "legal/dpa"
+        ]
+      },
+      {
+        "group": "Addons",
+        "icon": "puzzle-piece",
+        "pages": [
+          "addons/estimate-builder"
         ]
       }
     ],
