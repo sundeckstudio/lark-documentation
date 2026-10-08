@@ -16,6 +16,58 @@
           "index",
           "quickstart"
         ]
+      },
+      {
+        "group": "Getting started",
+        "icon": "rocket",
+        "pages": [
+          "getting-started/what-is-lark",
+          "getting-started/setting-up",
+          "getting-started/estimate-module",
+          "getting-started/lead-capture",
+          "getting-started/embedding",
+          "getting-started/rules-module",
+          "getting-started/welcome",
+          "getting-started/setting-up-your-account",
+          "getting-started/inviting-your-team"
+        ]
+      },
+      {
+        "group": "Your agent",
+        "icon": "robot",
+        "pages": [
+          "your-agent/knowledge-base",
+          "your-agent/persona-and-tone"
+        ]
+      },
+      {
+        "group": "Integrations",
+        "icon": "plug",
+        "pages": [
+          "integrations/overview",
+          "integrations/brevo",
+          "integrations/mailchimp",
+          "integrations/zendesk",
+          "integrations/salesforce"
+        ]
+      },
+      {
+        "group": "Account and billing",
+        "icon": "credit-card",
+        "pages": [
+          "account-and-billing/plans-and-pricing",
+          "account-and-billing/managing-your-subscription"
+        ]
+      },
+      {
+        "group": "Troubleshooting",
+        "icon": "wrench",
+        "pages": []
+      },
+      {
+        "group": "Legal",
+        "icon": "scale-balanced",
+        "pages": []
       }
     ],
     "global": {
