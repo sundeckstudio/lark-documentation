@@ -14,12 +14,12 @@
         "group": "Getting started",
         "icon": "rocket",
         "pages": [
+          "getting-started/welcome",
           "getting-started/what-is-lark",
           "getting-started/setting-up",
           "getting-started/lead-capture",
           "getting-started/embedding",
           "getting-started/rules-module",
-          "getting-started/welcome",
           "getting-started/setting-up-your-account",
           "getting-started/inviting-your-team"
         ]
@@ -28,6 +28,7 @@
         "group": "Your agent",
         "icon": "robot",
         "pages": [
+          "your-agent/overview",
           "your-agent/knowledge-base",
           "your-agent/persona-and-tone"
         ]
