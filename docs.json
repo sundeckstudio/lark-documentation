@@ -120,10 +120,8 @@
       "view",
       "chatgpt",
       "claude",
-      "perplexity",
       "mcp",
-      "cursor",
-      "vscode"
+      "download-pdf"
     ]
   },
   "footer": {
@@ -134,13 +132,15 @@
     }
   },
   "fonts": {
-    "heading": {
-      "family": "Space Grotesk",
-      "weight": 600
-    },
-    "body": {
-      "family": "Geist",
-      "weight": 400
-    }
+    "family": "Geist"
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "search": {
+    "prompt": "Ask Lark or Search..."
+  },
+  "metadata": {
+    "timestamp": false
   }
 }
