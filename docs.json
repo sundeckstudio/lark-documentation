@@ -3,7 +3,7 @@
   "theme": "mint",
   "name": "Lark Log",
   "colors": {
-    "primary": "#454545",
+    "primary": "#52BEC7",
     "light": "#939393",
     "dark": "#15803D"
   },
@@ -142,8 +142,5 @@
   },
   "metadata": {
     "timestamp": false
-  },
-  "background": {
-    "decoration": "grid"
   }
 }
