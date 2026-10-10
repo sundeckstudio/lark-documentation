@@ -142,5 +142,8 @@
   },
   "metadata": {
     "timestamp": false
+  },
+  "background": {
+    "decoration": "gradient"
   }
 }
