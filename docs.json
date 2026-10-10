@@ -3,8 +3,8 @@
   "theme": "mint",
   "name": "Lark Log",
   "colors": {
-    "primary": "#000000",
-    "light": "#FFFFFF",
+    "primary": "#454545",
+    "light": "#939393",
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
@@ -144,6 +144,6 @@
     "timestamp": false
   },
   "background": {
-    "decoration": "gradient"
+    "decoration": "grid"
   }
 }
