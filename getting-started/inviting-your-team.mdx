@@ -1,8 +1,64 @@
 ---
 title: "Inviting your team"
-description: "Bring teammates into your workspace and set what they can do."
+description: "Bring teammates into your organisations and control what they can do."
 ---
 
-Adding team members to an organisation is planned for the Pro plan and is not available yet. For now, each account has a single owner who manages billing, organisations and settings.
+Team members are available on Pro and Enterprise. Starter accounts have a single owner with no team members.
 
-Only the account owner can change billing details, choose a plan or pay. If someone else on your team needs access to billing, ask the owner.
+## Roles
+
+There are three roles in Lark.
+
+**Owner** — the person who created the account. Full access to everything: billing, plan management, team membership, all agent and organisation settings. One owner per account, cannot be removed or transferred.
+
+**Admin** — invited by the owner. Full control over the agent, knowledge base, integrations and organisation settings within their assigned organisation. Can view leads and analytics. Cannot manage team membership, cannot touch billing, cannot delete the organisation.
+
+**Member** — invited by the owner. View-only access to conversations, leads and analytics. Cannot change any settings or agent configuration.
+
+The owner selects Admin or Member when sending the invite and can change a person's role at any time without re-inviting them.
+
+## Team limits
+
+| Plan | Team members per organisation |
+| --- | --- |
+| Starter | None |
+| Pro | Up to 3 (excluding the owner) |
+| Enterprise | Custom |
+
+The same person can be invited to more than one organisation, but each invite must be sent separately from within that organisation.
+
+## Inviting someone
+
+Go to **Organisation Settings → Team** and click **Add member**. Enter their email address, select the organisation and choose a role. They will receive an invite email with a link to join.
+
+Invite links expire after 7 days. If someone has not accepted in time, you can resend the invite from the members list.
+
+On Starter, the Team section is visible but the Add member button is disabled. Upgrade to Pro to invite team members.
+
+## Accepting an invite
+
+When someone accepts an invite they are taken to a signup page where they set a password. Their email address is pre-filled from the invite and cannot be changed. They do not go through the standard onboarding flow — their account is scoped to the organisation they were invited to.
+
+## Managing members
+
+In **Organisation Settings → Team** you will see a list of everyone invited to that organisation, with their email address, role, and invite status (Pending, Accepted or Expired).
+
+From this list the owner can:
+
+- **Remove a member** — removes them from the organisation immediately and ends their access. This action requires confirmation.
+- **Resend invite** — sends a new invite email with a fresh 7-day link. Available for Pending and Expired entries.
+- **Change role** — switch a member between Admin and Member at any time.
+
+Admins cannot remove other members. Only the owner can manage team membership.
+
+## What team members can and cannot do
+
+|  | Owner | Admin | Member |
+| --- | --- | --- | --- |
+| Manage billing and plan | ✓ | — | — |
+| Manage team members | ✓ | — | — |
+| Delete organisation | ✓ | — | — |
+| Agent, knowledge base, integrations | ✓ | ✓ | — |
+| Organisation settings | ✓ | ✓ | — |
+| View leads and analytics | ✓ | ✓ | ✓ |
+| View conversations | ✓ | ✓ | ✓ |
