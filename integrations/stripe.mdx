@@ -1,0 +1,32 @@
+---
+title: "Stripe"
+description: "Let your agent answer billing questions using live Stripe data."
+---
+
+Available on Pro and above.
+
+## Connect
+
+1. Open **Integrations** and click **Connect** on Stripe.
+2. Enter your Stripe restricted API key on the secure page that opens.
+3. Back in Lark, confirm the connection and map your actions.
+
+## Creating a restricted API key
+
+In your Stripe dashboard go to **Developers → API keys** and create a restricted key with read-only access to Customers, Subscriptions, Invoices and Payment Methods. Do not grant write permissions.
+
+## Actions
+
+- **Get subscription status by email** — returns the customer's current plan and status.
+- **Get invoice history by email** — lists recent invoices and their payment status.
+- **Get next billing date** — returns when the customer's next payment is due.
+- **Get payment method on file** — returns the card type and last 4 digits.
+- **Check if a payment has failed** — confirms whether the customer has an outstanding failed payment.
+
+## Identity verification
+
+Before returning any billing data, the agent asks the visitor for their email and sends them a one-time verification code. Data is only shared after the code is confirmed.
+
+<Warning>
+  Stripe data is sensitive. Never share full card numbers, CVVs or account credentials. Lark only surfaces the last 4 digits of a card on file.
+</Warning>
