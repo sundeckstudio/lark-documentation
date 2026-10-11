@@ -1,0 +1,31 @@
+---
+title: "WordPress"
+description: "Add the Lark agent to your WordPress site."
+---
+
+Adding Lark to WordPress takes one script tag. You can add it through your theme or a lightweight plugin — no coding required.
+
+## Before you start
+
+- Your Lark agent is live and your organisation domain is saved in Organisation settings.
+- You have admin access to your WordPress site.
+
+## Get your embed script
+
+In your Lark dashboard open **Add to site** and copy the floating button script.
+
+## Add the script using a plugin
+
+The easiest method is to use a free plugin such as **Insert Headers and Footers** (WPCode). Install and activate it, go to **Code Snippets → Header & Footer**, paste your Lark script into the **Footer** section, and save. The agent will appear on every page of your site.
+
+## Add the script through your theme
+
+If you prefer not to use a plugin, go to **Appearance → Theme File Editor**, open your theme's `footer.php` file, paste the Lark script just before the closing `</body>` tag, and save.
+
+## Inline embed
+
+To show the agent inside a specific page, use the inline embed code from **Add to site** and paste it into a Custom HTML block on that page in the WordPress editor.
+
+<Note>
+  Make sure the domain in Organisation settings matches your live WordPress domain. The agent will not load on localhost or staging URLs unless those are added separately.
+</Note>
