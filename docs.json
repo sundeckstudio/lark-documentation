@@ -40,7 +40,16 @@
           "integrations/brevo",
           "integrations/mailchimp",
           "integrations/zendesk",
-          "integrations/salesforce"
+          "integrations/salesforce",
+          "integrations/hubspot",
+          "integrations/google-calendar",
+          "integrations/cal-com",
+          "integrations/calendly",
+          "integrations/slack",
+          "integrations/google-sheets",
+          "integrations/shopify",
+          "integrations/whatsapp",
+          "integrations/stripe"
         ]
       },
       {
