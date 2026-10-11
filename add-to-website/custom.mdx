@@ -1,6 +1,6 @@
 ---
 title: "Custom built"
-description: "Add the Lark agent to a custom-built website."
+description: "Add the Lark AI agent to your custom-built website easily."
 ---
 
 If your site is built with a custom framework or hand-coded HTML, adding Lark is a single script tag. It works with any stack.
@@ -45,6 +45,6 @@ You can also trigger it from JavaScript:
 window.Estimator.open()
 ```
 
-<Note>
-  The agent only loads on the domain set in Organisation settings. Requests from other domains, localhost, or staging URLs will not load the agent unless those domains are added.
-</Note>
+<Warning>
+  Your website's domain must match the domain saved in **Organisation Settings** in Lark before the agent will load. Go to Organisation Settings, check the domain field, and make sure it matches your live site. The agent will not appear on localhost or staging URLs unless those domains are added separately.
+</Warning>
