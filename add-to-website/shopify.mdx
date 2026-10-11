@@ -1,0 +1,27 @@
+---
+title: "Shopify"
+description: "Add the Lark agent to your Shopify store."
+---
+
+Adding Lark to Shopify takes one script tag added through your theme editor. It works on all pages of your store.
+
+## Before you start
+
+- Your Lark agent is live and your organisation domain is saved in Organisation settings.
+- You have access to your Shopify theme editor.
+
+## Get your embed script
+
+In your Lark dashboard open **Add to site** and copy the floating button script.
+
+## Add the script to Shopify
+
+In your Shopify admin go to **Online Store → Themes**. Click **Actions → Edit code** on your active theme. Open `theme.liquid` from the file list, find the closing `</body>` tag near the bottom of the file, paste your Lark script just before it, and save. The agent will appear on every page of your store.
+
+## Inline embed
+
+To show the agent on a specific page such as your contact or FAQ page, use the inline embed code from **Add to site**. In the Shopify theme editor, add a **Custom HTML** section to that page and paste the inline code into it.
+
+<Note>
+  Make sure the domain in Organisation settings matches your live Shopify domain (your `.myshopify.com` address or your custom domain). The agent will not load on Shopify's preview URLs.
+</Note>

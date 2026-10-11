@@ -80,6 +80,20 @@
         "pages": [
           "addons/estimate-builder"
         ]
+      },
+      {
+        "group": "Add to your website",
+        "icon": "globe",
+        "pages": [
+          "add-to-website/webflow",
+          "add-to-website/wordpress",
+          "add-to-website/squarespace",
+          "add-to-website/wix",
+          "add-to-website/shopify",
+          "add-to-website/framer",
+          "add-to-website/webstudio",
+          "add-to-website/custom"
+        ]
       }
     ],
     "global": {

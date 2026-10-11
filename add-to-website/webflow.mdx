@@ -1,0 +1,27 @@
+---
+title: "Webflow"
+description: "Add the Lark agent to your Webflow site."
+---
+
+Adding Lark to Webflow takes one script tag pasted into your site settings or a single Embed element on the page.
+
+## Before you start
+
+- Your Lark agent is live and your organisation domain is saved in Organisation settings.
+- You have a Webflow site you can edit in the Designer.
+
+## Get your embed script
+
+In your Lark dashboard open **Add to site** and copy the floating button script.
+
+## Add the script to your site
+
+In the Webflow Designer, click the **Pages** icon in the top-left corner. Open the page settings for the page you want the agent on, or open **Site settings** to add it to every page. Scroll to **Before closing body tag**, paste your Lark script, and save. Publish your site and the agent will appear as a floating button in the bottom-right corner.
+
+## Inline embed
+
+To show the agent inside a specific page instead of as a floating button, use the inline embed code from **Add to site**. In the Designer, drag an **Embed** element to the spot where you want the agent to appear, double-click it, paste the inline code, and click **Save and Close**.
+
+<Note>
+  Make sure the domain in Organisation settings matches your published Webflow domain, not the `.webflow.io` preview URL. The agent will not load on preview URLs.
+</Note>

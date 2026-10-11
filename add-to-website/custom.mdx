@@ -1,0 +1,50 @@
+---
+title: "Custom built"
+description: "Add the Lark agent to a custom-built website."
+---
+
+If your site is built with a custom framework or hand-coded HTML, adding Lark is a single script tag. It works with any stack.
+
+## Before you start
+
+- Your Lark agent is live and your organisation domain is saved in Organisation settings.
+- You have access to edit your site's HTML or template files.
+
+## Get your embed script
+
+In your Lark dashboard open **Add to site** and copy the floating button script.
+
+## Floating button
+
+Paste the script before the closing `</body>` tag in your base layout or template file. This adds the agent to every page.
+
+```html
+<script src="https://YOUR-LARK-DOMAIN/embed.js" data-key="YOUR_KEY" defer></script>
+```
+
+## Inline embed
+
+To render the agent inside a specific element on a page, add a container div and use the inline embed code:
+
+```html
+<div id="lark"></div>
+<script src="https://YOUR-LARK-DOMAIN/embed.js" data-key="YOUR_KEY" data-mode="inline" data-target="#lark" data-height="600" defer></script>
+```
+
+## Open from your own button
+
+With the floating script on the page, any element with the `data-estimator-open` attribute opens the agent. Add `data-launcher="false"` to the script tag to hide the default button.
+
+```html
+<a href="#" data-estimator-open>Talk to our agent</a>
+```
+
+You can also trigger it from JavaScript:
+
+```js
+window.Estimator.open()
+```
+
+<Note>
+  The agent only loads on the domain set in Organisation settings. Requests from other domains, localhost, or staging URLs will not load the agent unless those domains are added.
+</Note>
