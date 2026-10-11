@@ -17,7 +17,6 @@
           "getting-started/what-is-lark",
           "getting-started/setting-up",
           "getting-started/lead-capture",
-          "getting-started/embedding",
           "getting-started/rules-module",
           "getting-started/welcome",
           "getting-started/setting-up-your-account",
@@ -85,6 +84,7 @@
         "group": "Add to your website",
         "icon": "globe",
         "pages": [
+          "getting-started/embedding",
           "add-to-website/webflow",
           "add-to-website/wordpress",
           "add-to-website/squarespace",

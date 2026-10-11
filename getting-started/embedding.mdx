@@ -1,52 +1,24 @@
 ---
-title: "Embedding agent on your website"
-description: "How to add the Lark agent to any website using the embed script."
+title: "Get your embed code"
+description: "How to get your Lark agent embed code and add it to your website."
 ---
 
-## One script tag is all it takes
-
-Embedding Lark on your website is a single copy and paste. No plugin to install and no framework required. It works on any site that lets you add custom HTML.
-
-## Before you embed
-
-- Set your organisation domain in Organisation settings. The agent only loads on that domain and its subdomains, so `example.com` also covers `www.example.com` and `shop.example.com`. Until a domain is set, the agent will not load anywhere.
-- During your trial you can put the agent on your site for up to 20 live conversations. After that you need an active paid plan. You can also try the agent from your dashboard with Try agent.
+Adding Lark to your website is a single script tag. No plugin, no framework, no configuration required.
 
 ## Get your code
 
-Open **Add to site** in your dashboard and copy the option you want. Each snippet already contains your organisation's key.
-
-### Floating button
-
-Adds the agent to the bottom right corner of your site. Paste it before the closing `</body>` tag, or into an HTML embed block in your site builder.
+In your Lark dashboard go to **Agent → Add to site**. Your embed script is shown there, pre-filled with your organisation's key. Copy it.
 
 ```html
-<script src="https://YOUR-LARK-DOMAIN/embed.js" data-key="YOUR_KEY" defer></script>
+<script src="https://trylark.io/embed.js" data-key="YOUR_KEY" defer></script>
 ```
 
-### Inline card
+Paste it before the closing `</body>` tag on your website, or into an HTML embed block in your site builder. That's it — your agent will appear as a floating button in the bottom-right corner.
 
-Shows the agent inside your page, for example on a pricing or contact page.
+<Warning>
+  Your website's domain must match the domain saved in **Organisation Settings** in Lark before the agent will load. If they don't match, the agent will not appear.
+</Warning>
 
-```html
-<div id="estimate"></div>
-<script src="https://YOUR-LARK-DOMAIN/embed.js" data-key="YOUR_KEY" data-mode="inline" data-target="#estimate" data-height="600" defer></script>
-```
+## Choose your platform
 
-### Open from your own button
-
-With the floating script on the page, any element with the `data-estimator-open` attribute opens the agent. Add `data-launcher="false"` to the script to hide the default button.
-
-```html
-<a href="#" data-estimator-open>Get a quote</a>
-```
-
-You can also open it from JavaScript with `window.Estimator.open()`.
-
-### Direct link
-
-A full page version you can link to from emails or social: `https://YOUR-LARK-DOMAIN/widget?key=YOUR_KEY`.
-
-## Rotating your key
-
-You can rotate your key from Add to site. The old key stops working immediately, so every site using the old code will show an unavailable agent until you paste the new code.
+Select your website platform below for step-by-step instructions.
