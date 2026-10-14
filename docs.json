@@ -16,12 +16,9 @@
         "pages": [
           "getting-started/what-is-lark",
           "getting-started/setting-up",
-          "getting-started/lead-capture",
-          "getting-started/rules-module",
           "getting-started/welcome",
           "getting-started/setting-up-your-account",
-          "getting-started/inviting-your-team",
-          "getting-started/analytics"
+          "getting-started/inviting-your-team"
         ]
       },
       {
@@ -94,6 +91,20 @@
           "add-to-website/framer",
           "add-to-website/webstudio",
           "add-to-website/custom"
+        ]
+      },
+      {
+        "group": "Dashboard",
+        "icon": "gauge",
+        "pages": [
+          "getting-started/lead-capture"
+        ]
+      },
+      {
+        "group": "Analytics",
+        "icon": "chart-bar",
+        "pages": [
+          "analytics/understanding-your-analytics"
         ]
       }
     ],
