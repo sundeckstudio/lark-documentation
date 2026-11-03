@@ -137,8 +137,8 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Get started",
+      "href": "https://app.heylark.io/"
     }
   },
   "contextual": {
@@ -150,13 +150,6 @@
       "mcp",
       "download-pdf"
     ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
   },
   "fonts": {
     "family": "Geist"
