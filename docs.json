@@ -113,8 +113,8 @@
     ]
   },
   "logo": {
-    "light": "/images/logo-light.svg",
-    "dark": "/images/logo-dark.svg",
+    "light": "/images/logo-lightmode.svg",
+    "dark": "/images/logo-darkmode.svg",
     "href": "https://docs.heylark.io/"
   },
   "navbar": {
