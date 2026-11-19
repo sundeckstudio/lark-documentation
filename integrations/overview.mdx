@@ -3,31 +3,108 @@ title: "Integrations overview"
 description: "Connect Lark to the tools you already use so leads flow in automatically."
 ---
 
-Open **Integrations** under Connect in your dashboard. Each tool has a card where you connect it, adjust its settings and check its status.
+Open **Integrations** under Integrations and Tools in your dashboard. Each tool has a card where you connect it, adjust its settings and check its status.
 
-## Available tools
+## Available Integrations
 
-| Tool | What it does | Plan |
-| --- | --- | --- |
-| [Brevo](/integrations/brevo) | Adds contacts who agreed to hear from you to a list | Starter and above |
-| [Mailchimp](/integrations/mailchimp) | Adds contacts who agreed to hear from you to an audience | Starter and above |
-| [Zendesk](/integrations/zendesk) | Creates support tickets from conversations | Pro and above |
-| [Salesforce](/integrations/salesforce) | Creates or updates Leads | Pro and above |
-| HubSpot | Creates or updates contacts | Pro and above |
-| Cal.com | Connect and validate only for now | Starter and above |
+We are continuously adding new integrations. You'll be able to see these when they're available in Integrations page in your dashboard.
 
-## Connecting a tool
+<table>
+  <colgroup>
+    <col width="136" />
+    <col width="100" />
+    <col width="325" />
+  </colgroup>
+  <thead>
+    <tr>
+      <th>Integration</th>
+      <th>Plan</th>
+      <th>Capabilities</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>**[Brevo](/integrations/brevo)**</td>
+      <td>Starter+</td>
+      <td>Add consenting visitors to a contact list; store non-consenting as unsubscribed (opt-out supported)</td>
+    </tr>
+    <tr>
+      <td>**[Mailchimp](/integrations/mailchimp)**</td>
+      <td>Starter+</td>
+      <td>Subscribe visitors to an audience; store non-consenting as unsubscribed; optional double opt-in</td>
+    </tr>
+    <tr>
+      <td>**[Zendesk](/integrations/zendesk)**</td>
+      <td>Starter+</td>
+      <td>Create a support ticket for every new lead (name, email, estimate, conversation summary + tag)</td>
+    </tr>
+    <tr>
+      <td>[**Cal.com**](http://Cal.com)</td>
+      <td>Starter+</td>
+      <td>List event types, check available slots, **book appointments** directly in conversation</td>
+    </tr>
+    <tr>
+      <td>**Google Calendar**</td>
+      <td>Starter+</td>
+      <td>Check availability, offer open slots, **create events** (invites visitor), list/look up events</td>
+    </tr>
+    <tr>
+      <td>**Calendly**</td>
+      <td>Starter+</td>
+      <td>List event types, check availability, **generate one-time scheduling links**</td>
+    </tr>
+    <tr>
+      <td>[**Salesforce**](/integrations/salesforce)</td>
+      <td>Pro+</td>
+      <td>Create or update a Lead for every enquiry; upsert by email; can store all leads (not just consented)</td>
+    </tr>
+    <tr>
+      <td>**HubSpot**</td>
+      <td>Pro+</td>
+      <td>Create or update a Contact; attach conversation note; can store all leads</td>
+    </tr>
+    <tr>
+      <td>**Slack**</td>
+      <td>Pro+</td>
+      <td>Send a channel message for every new lead (name, email, estimate, summary)</td>
+    </tr>
+    <tr>
+      <td>**Google Sheets**</td>
+      <td>Pro+</td>
+      <td>Append a row per lead; look up returning visitors by email mid-conversation</td>
+    </tr>
+    <tr>
+      <td>**Shopify**</td>
+      <td>Pro+</td>
+      <td>Create/update customer record; let visitors check order status and tracking by email</td>
+    </tr>
+    <tr>
+      <td>**Stripe**</td>
+      <td>Pro+</td>
+      <td>Let visitors check subscription status, invoices, and card-on-file — after email verification</td>
+    </tr>
+    <tr>
+      <td>**WhatsApp**</td>
+      <td>Pro+</td>
+      <td>Notify owner on new lead; send visitor a follow-up via approved template; share business number on request</td>
+    </tr>
+  </tbody>
+</table>
 
-Click **Connect** on the tool's card. Most tools open a sign-in window where you approve access. Brevo asks for an API key on a secure page. If you are setting Lark up for a client, choose **Send this link to my client** so they can approve access themselves.
+## Adding an integration
+
+Click **Connect** on the tool's card. Most tools open a sign-in window where you approve access.
 
 A connection is always in one of four states: Not connected, Waiting for approval, Connected or Needs attention. If a tool shows Needs attention, use **Reconnect**.
 
 After connecting, use **Validate connection** to check it works, then adjust the tool's settings and click **Save settings**. Use **Send a test contact** to confirm a contact arrives. **Disconnect** removes the connection.
 
-## Consent
+## Consent from your visitors to add them as a lead
 
-Mailing list tools (Brevo and Mailchimp) only receive visitors who said yes when the agent asked if they would like to receive emails. Other leads stay in your dashboard.
+Following data and privacy laws such as GDPR, mailing list tools (Example but not limited to: Brevo and Mailchimp) only receive visitors who said **yes** when the agent asked if they would like to receive emails. Other leads stay in your dashboard in Leads page.
 
 ## How syncing works
 
-Leads sync in the background. Each lead in your dashboard shows whether it was sent, is still sending or failed, and you can retry a failed one.
+Leads sync in the background. Each lead in your dashboard shows whether it was sent, is still sending or failed, and you can retry a failed one. In Leads page you can choose the integrations you want to use, to send your leads directly to.
+
+For example if you want to send all leads to Mailchimp, or Salesforce, simply enable the "Where your leads go" function in Leads page and choose the destination. Only connected integrations will appear here.
