@@ -75,7 +75,7 @@
         ]
       },
       {
-        "group": "Addons",
+        "group": "Addons & Tools",
         "icon": "unplug",
         "pages": [
           "addons/estimate-builder"
